@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+}
+
+header {
+    position: relative;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 10px;
+    background: #fff;
+    box-sizing: border-box;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+  background-color: transparent;
+}
+
+.logo {
+    color: white;
+    height: 50px;
+    font-size: 36px;
+    line-height: 60px;
+    padding: 0 20px;
+    text-align: center;
+    box-sizing: border-box;
+    float: left;
+    font-weight: 700px;
+    text-decoration: none;
+
+}
+
+nav {
+    float: right;
+}
+
+.clearfix {
+    clear: both;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav ul li {
+    list-style: none;
+
+}
+nav ul li a {
+    display: block;
+    margin: 10px 0;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+}
+/*===================
+ To Do List dibawah
+===================*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    background-image: url(hoo.jpg);
+    box-sizing: border-box;
+}
+h1 {
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 50;
+    text-align: center;
+    margin: 1rem 0 3rem; 
+    font-family: 'Hind', sans-serif;
+}
+.title{
+    color: #69f1ff;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+.inputDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input{
+    padding: 0.5rem 1rem;
+    outline: none;
+    border: none;
+    height: 50px;
+    border-radius: 25px;
+    width: 350px;
+    margin: 0.25rem;
+    transition: .5s;
+    font-size: 1.15rem;
+}
+.add{
+    outline: none;
+    border: none;
+    height: 50px;
+    border-radius: 25px;
+    width: 50px;
+    background-color: #69f1ff;
+    color: white;
+    cursor: pointer;
+    transition: .5s;
+    margin: 0.25rem;
+}
+.add:hover{
+    opacity: 0.7;
+    background-color: #1f3feb;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 2rem;
+}
+.item{
+    padding: 0.5rem;
+    border-bottom: 4px solid #372424;
+    margin-bottom: 1.5rem;
+}
+.item_input{
+    background: none;
+    outline: none;
+    border: none;
+    color: #69f1ff;
+    font-size: 1.4rem;
+    width: 245px;
+}
+.edit{
+    background: none;
+    outline: none;
+    border: none;
+    color: #07f28e;
+    font-size: 1.4rem;
+    font-family: 'Hind', sans-serif;
+    margin: 0 0.5rem;
+    cursor: pointer;
+}
+.remove{
+    background: none;
+    outline: none;
+    border: none;
+    color: #E00;
+    font-size: 1.4rem;
+    font-family: 'Hind', sans-serif;
+    cursor: pointer;
+}

@@ -1,0 +1,118 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'poppins', sans-serif;
+}
+
+header {
+	position: relative;
+	max-width: 1200px;
+	margin: 20px auto;
+	padding: 10px;
+	background: #fff;
+	box-sizing: border-box;
+	border-radius: 4px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+  background-color: transparent;
+}
+
+.logo {
+	color: white;
+	height: 50px;
+	font-size: 36px;
+	line-height: 60px;
+	padding: 0 20px;
+	text-align: center;
+	box-sizing: border-box;
+	float: left;
+	font-weight: 700px;
+	text-decoration: none;
+
+}
+
+nav {
+	float: right;
+}
+
+.clearfix {
+	clear: both;
+}
+nav ul {
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+nav ul li {
+	list-style: none;
+
+}
+nav ul li a {
+	display: block;
+	margin: 10px 0;
+	padding: 10px 20px;
+	text-decoration: none;
+	color: white;
+}
+
+
+/*===================
+ Kalkulator dibawah
+===================*/
+
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: Viga;
+}
+
+body {
+	
+	background-image: url(wiii.png);
+}
+
+.main {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	width: fixed;
+	background-image: url(wiii.png);
+	padding: 25px;
+	border-radius: 15px;
+	box-shadow: 0 0 15px;
+}
+
+.main h1 {
+	text-align: center;
+	color: white;
+	text-transform: uppercase;
+}
+
+.button {
+	width: 50px;
+	height: 50px;
+	font-size: 25px;
+	margin: 2px;
+	cursor: pointer;
+	border: none;
+	background: #11d7eb;
+	color: white;
+	border-radius: 25px;
+	
+}
+
+.btn-green {
+	background:#dc09fa;
+	color:#11d7eb;
+}
+
+.textarea {
+	width: 204px;
+	margin: 4px;
+	font-size: 20px;
+	padding: 10px;
+	border: none;
+	color: #607d8b;
+	border-radius: 25px;
+	text-align: right;
+}
